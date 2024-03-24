@@ -51,7 +51,7 @@ Before you begin, ensure you have the following:
 
 Upon successful execution, Terraform will output the URL of the newly created ECR repository:
 
-```sh helloworldapp-repository-URL = <repository_url>
+```bash helloworldapp-repository-URL = <repository_url>
 
 ```
 
@@ -63,7 +63,7 @@ You can now push Docker images to the ECR repository using the provided URL.
 
 To remove the provisioned resources and destroy the ECR repository, run:
 
-```sh terraform destroy
+```bash terraform destroy
 
 ```
 
