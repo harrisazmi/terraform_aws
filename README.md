@@ -62,8 +62,8 @@ You can now push Docker images to the ECR repository using the provided URL.
 ## Cleanup
 
 To remove the provisioned resources and destroy the ECR repository, run:
-
-```bash terraform destroy
+```sh
+terraform apply
 
 ```
 
@@ -74,3 +74,4 @@ To remove the provisioned resources and destroy the ECR repository, run:
 - For production environments, consider incorporating this Terraform configuration into a CI/CD pipeline for automated deployments.
 
 For more information on AWS ECR repositories and Terraform, refer to the [AWS ECR documentation](https://docs.aws.amazon.com/ecr/index.html) and [Terraform documentation](https://www.terraform.io/docs/index.html) respectively.
+```
